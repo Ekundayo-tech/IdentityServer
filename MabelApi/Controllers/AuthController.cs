@@ -47,7 +47,8 @@ namespace TweetApi.Controllers
 
             return Ok(new RegisterResponse
             {
-                Token = res.Token
+                Token = res.Token,
+                UserId = res.UserId
             });
         }
 
@@ -67,7 +68,8 @@ namespace TweetApi.Controllers
 
             return Ok(new RegisterResponse
             {
-                Token = res.Token, 
+                Token = res.Token,
+                UserId = res.UserId
             });
         }
          

@@ -7,7 +7,8 @@ namespace MabelApi.Contracts.Response
 {
     public class RegisterResponse
     { 
-        public string Token { get; set; } 
+        public string Token { get; set; }
+        public string UserId { get; set; }
     }
      
     public class RegFailureResponse
