@@ -56,20 +56,20 @@ namespace TweetApi.Installers
             services.AddSwaggerGen(x => {
                 x.SwaggerDoc("v2", new OpenApiInfo
                 {
-                    Title = "GODP Cloud",
+                    Title = "Bankly Cloud",
                     Version = "V2",
                     Description = "An API to perform business automated operations",
-                    TermsOfService = new Uri("http://www.mabel.co.uk/"),
+                    TermsOfService = new Uri("http://www.bankly.co.uk/"),
                     Contact = new OpenApiContact
                     {
                         Name = "Emmanuel Ekundayo",
                         Email = "gbengahe@gmail.com",
-                        Url = new Uri("http://www.mabel.co.uk/"),
+                        Url = new Uri("http://www.Bankly.co.uk/"),
                     },
                     License = new OpenApiLicense
                     {
                         Name = "Tweeter API LICX",
-                        Url = new Uri("http://www.mabel.co.uk/"),
+                        Url = new Uri("http://www.Bankly.co.uk/"),
                     },
 
                 });

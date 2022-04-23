@@ -10,10 +10,4 @@ namespace MabelApi.Interface
         public string RefreshToken { get; set; }
         public string UserId { get; set; }
     }
-    public class CandidateResult
-    {  
-        public bool Success { get; set; }
-        public IEnumerable<string> ErrorMessage { get; set; }
- 
-    }
 }
